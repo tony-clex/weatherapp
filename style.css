@@ -2,7 +2,7 @@ body {
   background: #222;
 }
 
-.container {
+.big-box {
   width: 90%;
   max-width: 470px;
   background: linear-gradient(135deg, #00feba, #5b548a);
@@ -11,13 +11,6 @@ body {
   border-radius: 20px;
   padding: 40px 35px;
   text-align: center;
-}
-
-.search {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
 
 #city-input-btn {
@@ -35,10 +28,8 @@ body {
 
 #city-input-btn:hover {
   background: linear-gradient(135deg, #1c6dd0, #4a90e2);
-  box-shadow: 0 6px 16px rgba(19, 78, 151, 0.8)
+  box-shadow: 0 6px 16px rgba(19, 78, 151, 0.8);
 }
-
-
 
 .search input {
   border: 0;
@@ -63,37 +54,6 @@ body {
   cursor: pointer;
 }
 
-.search button img {
-  width: 16px;
-}
-
-.weather-icon {
-  width: 170px;
-  margin-top: 30px;
-}
-
-.box-weather h1 {
-  font-size: 80px;
-  font-weight: 500;
-}
-.box-weather h2 {
-  font-size: 80px;
-  font-weight: 500;
-  margin-top: -10px;
-}
-
-.details {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 20px;
-  margin-top: 50px;
-}
-
-.image-2 img {
-  width: 170px;
-}
-
 #city-input {
   width: 280px;
   padding: 12px 20px;
@@ -116,7 +76,6 @@ body {
   color: #000;
 }
 
-
 @media (max-width: 320px) {
   body {
     font-family: Arial, sans-serif;
@@ -130,24 +89,23 @@ body {
   }
 
   #city-input {
-  padding: 12px 20px;
-  font-size: 16px;
-  border: 2px solid #4a90e2;
-  border-radius: 30px;
-  box-shadow: 0 4px 8px rgba(74, 144, 226, 0.3);
-  background: #f0f8ff;
-  color: #333;
-}
+    padding: 12px 20px;
+    font-size: 16px;
+    border: 2px solid #4a90e2;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(74, 144, 226, 0.3);
+    background: #f0f8ff;
+    color: #333;
+  }
 
-#city-input::placeholder {
-  color: #7a9cc6;
-}
+  #city-input::placeholder {
+    color: #7a9cc6;
+  }
 
-#city-input:focus {
-  border-color: #1c6dd0;
-  box-shadow: 0 6px 12px rgba(28, 109, 208, 0.6);
-  background: #e6f0ff;
-  color: #000;
-}
-
+  #city-input:focus {
+    border-color: #1c6dd0;
+    box-shadow: 0 6px 12px rgba(28, 109, 208, 0.6);
+    background: #e6f0ff;
+    color: #000;
+  }
 }
