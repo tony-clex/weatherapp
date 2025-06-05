@@ -20,7 +20,6 @@ body {
   background: linear-gradient(135deg, #4a90e2, #1c6dd0);
   border: none;
   border-radius: 30px;
-
   cursor: pointer;
   user-select: none;
   margin: 12px;
@@ -28,7 +27,7 @@ body {
 
 #city-input-btn:hover {
   background: linear-gradient(135deg, #1c6dd0, #4a90e2);
-  box-shadow: 0 6px 16px rgba(19, 78, 151, 60%);
+  box-shadow: 0 6px 16px rgba(19 78 151 / 60%);
 }
 
 .search input {
@@ -46,7 +45,7 @@ body {
 
 .search button {
   border: 0;
-  outline: o;
+  outline: 0;
   background: #ebfffc;
   border-radius: 50%;
   width: 60px;
@@ -60,7 +59,7 @@ body {
   font-size: 16px;
   border: 2px solid #4a90e2;
   border-radius: 30px;
-  box-shadow: 0 4px 8px rgba(74, 144, 226, 30%);
+  box-shadow: 0 4px 8px rgba(74 144 226 / 30%);
   background: #f0f8ff;
   color: #333;
 }
@@ -70,12 +69,12 @@ body {
 }
 
 #weather-icon {
-    size: 2px;
+  /* Removed invalid 'size' property */
 }
 
 #city-input:focus {
   border-color: #1c6dd0;
-  box-shadow: 0 6px 12px rgba(28, 109, 208, 60%);
+  box-shadow: 0 6px 12px rgba(28 109 208 / 60%);
   background: #e6f0ff;
   color: #000;
 }
@@ -97,7 +96,7 @@ body {
     font-size: 16px;
     border: 2px solid #4a90e2;
     border-radius: 30px;
-    box-shadow: 0 4px 8px rgba(74, 144, 226, 0.3);
+    box-shadow: 0 4px 8px rgba(74 144 226 / 30%);
     background: #f0f8ff;
     color: #333;
   }
@@ -108,7 +107,7 @@ body {
 
   #city-input:focus {
     border-color: #1c6dd0;
-    box-shadow: 0 6px 12px rgba(28, 109, 208, 0.6);
+    box-shadow: 0 6px 12px rgba(28 109 208 / 60%);
     background: #e6f0ff;
     color: #000;
   }
