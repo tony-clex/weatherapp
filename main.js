@@ -1,4 +1,4 @@
-
+/* global $, moment */
 
 const apiUrl = 'https://api.openweathermap.org/data/2.5/weather'
 const apikey = '7026f3b3e6fb2220b3437fc5aaed9070'
